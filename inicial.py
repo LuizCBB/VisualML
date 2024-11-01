@@ -1,4 +1,4 @@
-﻿import streamlit as st
+import streamlit as st
 
 def carrega_inicial():
     # Logo
@@ -20,17 +20,18 @@ def carrega_inicial():
           padding-left: 10px;
         }
     </style> """, unsafe_allow_html=True)
-        
-    st.markdown("""<div><p>Atualmente, o aprendizado de máquina (<i>Machine Learning</i> - ML) está presente em variados dispositivos e serviços que fazem parte da vida humana, como serviços de recomendação, diagnóstico
-    de cuidados de saúde, veículos autônomos, ambientes virtuais de aprendizagem, dentre outros. Assim, investir no ensino de aprendizado de máquina é essencial para
-    qualquer país que deseja se destacar no cenário global e preparar a sociedade para os desafios do futuro. O aprendizado de máquina é uma das áreas mais dinâmicas da
-    inteligência artificial, impulsionando a inovação em setores como saúde, finanças, agricultura e manufatura. Ao investir na educação e formação de profissionais capacitados
-    em aprendizado de máquina, um país pode liderar o desenvolvimento de tecnologias avançadas, criando soluções inovadoras para problemas complexos e melhorando a eficiência
-    em diversos setores. O desenvolvimento de aplicações habilitadas para o aprendizado de máquina, entretanto, não é trivial, requerendo a compreensão de algoritmos e processos
-    de trabalho complexos, exigindo que o estudante tenha certo nível de habilidades de programação e fique imerso em uma gama cada vez maior de arquiteturas e <i>frameworks</i>.
-    Em consequência disso, a aprendizagem de alunos iniciantes nesta área é uma tarefa difícil. Para popularizar o aprendizado de máquina é desejável reduzir o esforço cognitivo 
-    de alunos iniciantes. Neste contexto, desenvolvemos o <b><i>VisualML</i></b>, uma ferramenta interativa baseada em fluxo de dados para o estudo de conceitos de aprendizado de máquina.
-    </p></div>""", unsafe_allow_html=True)
+    
+    with st.expander(":blue[**Motivação**]"):
+        st.markdown("""<div><p>Atualmente, o aprendizado de máquina (<i>Machine Learning</i> - ML) está presente em variados dispositivos e serviços que fazem parte da vida humana, como serviços de recomendação, diagnóstico
+        de cuidados de saúde, veículos autônomos, ambientes virtuais de aprendizagem, dentre outros. Assim, investir no ensino de aprendizado de máquina é essencial para
+        qualquer país que deseja se destacar no cenário global e preparar a sociedade para os desafios do futuro. O aprendizado de máquina é uma das áreas mais dinâmicas da
+        inteligência artificial, impulsionando a inovação em setores como saúde, finanças, agricultura e manufatura. Ao investir na educação e formação de profissionais capacitados
+        em aprendizado de máquina, um país pode liderar o desenvolvimento de tecnologias avançadas, criando soluções inovadoras para problemas complexos e melhorando a eficiência
+        em diversos setores. O desenvolvimento de aplicações habilitadas para o aprendizado de máquina, entretanto, não é trivial, requerendo a compreensão de algoritmos e processos
+        de trabalho complexos, exigindo que o estudante tenha certo nível de habilidades de programação e fique imerso em uma gama cada vez maior de arquiteturas e <i>frameworks</i>.
+        Em consequência disso, a aprendizagem de alunos iniciantes nesta área é uma tarefa difícil. Para popularizar o aprendizado de máquina é desejável reduzir o esforço cognitivo 
+        de alunos iniciantes. Neste contexto, desenvolvemos o <b><i>VisualML</i></b>, uma ferramenta interativa baseada em fluxo de dados para o estudo de conceitos de aprendizado de máquina.
+        </p></div>""", unsafe_allow_html=True)
     
     with st.expander(":blue[**Relação entre Inteligência artificial, aprendizado de máquina e aprendizado profundo**]"):
         st.markdown("""<div><p>A Inteligência Artificial (IA) é uma área que se concentra na criação de sistemas capazes de realizar tarefas que normalmente requerem inteligência 
@@ -49,6 +50,10 @@ def carrega_inicial():
         st.markdown("""<div><p>Em desenvolvimento</p></div>""", unsafe_allow_html=True)
     with st.expander(":blue[**Aprendizado não supervisionado**]"):
         st.markdown("""<div><p>Em desenvolvimento</p></div>""", unsafe_allow_html=True)
+    
+  
+    
+    
     
   
     
